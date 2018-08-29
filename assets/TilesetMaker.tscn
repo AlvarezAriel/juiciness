@@ -6,7 +6,6 @@
 
 [node name="Grass1" type="Sprite" parent="." index="0"]
 
-editor/display_folded = true
 position = Vector2( 16, 16 )
 texture = ExtResource( 1 )
 region_enabled = true

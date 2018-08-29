@@ -11,14 +11,14 @@ config_version=3
 [application]
 
 config/name="IntroGameDevClase2"
-run/main_scene="res://World.tscn"
+run/main_scene="res://Dungeon.tscn"
 config/icon="res://icon.png"
 
 [display]
 
 window/size/width=640
 window/size/height=480
-window/stretch/mode="viewport"
+window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
 [layer_names]
@@ -31,8 +31,10 @@ window/stretch/aspect="keep"
 2d_physics/layer_3="enemies"
 2d_render/layer_4="pickable"
 2d_physics/layer_4="pickable"
+2d_physics/layer_5="boxes"
 
 [rendering]
 
 quality/2d/use_pixel_snap=true
+environment/default_clear_color=Color( 0.0392157, 0.0431373, 0.0588235, 1 )
 environment/default_environment="res://default_env.tres"
